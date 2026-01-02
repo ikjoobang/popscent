@@ -594,8 +594,8 @@ C. Development (OEM/ODM)
 
 [연락처]
 - 웹사이트: popscent.kr
-- 이메일: info@popscent.kr
-- 전화: 02-523-7054
+- 이메일: jongeok.yang@brandstone.co.kr
+- 전화: +82 02 523 7054
 
 3. 심리적 영업 알고리즘 (5단계):
 [1단계 - 공감 (Empathy)]
@@ -733,7 +733,7 @@ function getSmartFallbackResponse(message: string): string {
 
 혹시 어떤 제품군을 생각하고 계신가요? 향 종류나 용기 디자인 방향이 있으시면 더 정확한 견적을 드릴 수 있습니다.
 
-📧 상세 문의: info@popscent.kr`
+📧 상세 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 가격 관련
@@ -748,7 +748,7 @@ function getSmartFallbackResponse(message: string): string {
 
 어떤 제품에 관심 있으신가요?
 
-📧 견적 문의: info@popscent.kr`
+📧 견적 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 수출입/해외
@@ -761,7 +761,7 @@ function getSmartFallbackResponse(message: string): string {
 
 관심 있으신 국가나 타겟 채널이 있으신가요?
 
-📧 수출입 문의: info@popscent.kr`
+📧 수출입 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 유통/입점
@@ -777,7 +777,7 @@ function getSmartFallbackResponse(message: string): string {
 
 현재 어떤 채널을 우선적으로 생각하고 계신가요?
 
-📧 유통 문의: info@popscent.kr`
+📧 유통 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 하리보캔들
@@ -791,7 +791,7 @@ function getSmartFallbackResponse(message: string): string {
 
 하리보캔들 관련해서 어떤 부분이 궁금하신가요? 수입, 유통, 아니면 해외 판매권?
 
-📧 문의: info@popscent.kr`
+📧 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 양키캔들
@@ -804,7 +804,7 @@ function getSmartFallbackResponse(message: string): string {
 
 양키캔들 관련해서 어떤 부분을 알고 싶으신가요?
 
-📧 문의: info@popscent.kr`
+📧 문의: jongeok.yang@brandstone.co.kr`
   }
   
   // 인사/첫 대화
@@ -856,7 +856,7 @@ PopScent는 "Design Your Air" 철학으로 프리미엄 홈프래그런스를 �
 
 편하게 물어보세요!
 
-📧 info@popscent.kr | 📞 02-523-7054`
+📧 jongeok.yang@brandstone.co.kr | 📞 +82 02 523 7054`
 }
 
 // Main Page - Toss Style Ultra Minimal
@@ -1164,14 +1164,14 @@ app.get('/', (c) => {
             Contact
           </h2>
           <div class="mb-6 md:mb-10">
-            <p class="text-lg md:text-2xl lg:text-3xl text-gray-800 mb-2">02-523-7054</p>
-            <p class="text-sm md:text-xl text-gray-400 break-all md:break-normal">info@popscent.kr</p>
+            <p class="text-lg md:text-2xl lg:text-3xl text-gray-800 mb-2">+82 02 523 7054</p>
+            <p class="text-sm md:text-xl text-gray-400 break-all md:break-normal">jongeok.yang@brandstone.co.kr</p>
           </div>
           <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
-            <a href="tel:+82-2-523-7054" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-black text-white text-sm md:text-lg font-medium rounded-full hover:bg-gray-800 transition-colors">
+            <a href="tel:+82-02-523-7054" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-black text-white text-sm md:text-lg font-medium rounded-full hover:bg-gray-800 transition-colors">
               <i class="fas fa-phone mr-2"></i><span class="lang-text" data-key="callNow">Call</span>
             </a>
-            <a href="mailto:info@popscent.kr" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-blue-500 text-white text-sm md:text-lg font-medium rounded-full hover:bg-blue-600 transition-colors">
+            <a href="mailto:jongeok.yang@brandstone.co.kr" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-blue-500 text-white text-sm md:text-lg font-medium rounded-full hover:bg-blue-600 transition-colors">
               <i class="fas fa-envelope mr-2"></i><span class="lang-text" data-key="getInTouch">Get in Touch</span>
             </a>
           </div>
@@ -1206,9 +1206,9 @@ app.get('/', (c) => {
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 py-6 border-t border-b border-sky-700/50">
             <div>
               <p class="text-sky-300 text-xs mb-2 uppercase tracking-wider">Contact</p>
-              <p class="mb-1"><span class="text-sky-400">T:</span> +82 2 523 7054</p>
+              <p class="mb-1"><span class="text-sky-400">T:</span> +82 02 523 7054</p>
               <p class="mb-1"><span class="text-sky-400">M:</span> +82 10 9241 2684</p>
-              <p><span class="text-sky-400">E:</span> info@popscent.kr</p>
+              <p><span class="text-sky-400">E:</span> jongeok.yang@brandstone.co.kr</p>
             </div>
             <div>
               <p class="text-sky-300 text-xs mb-2 uppercase tracking-wider">Address</p>

@@ -8,7 +8,10 @@ export const renderer = jsxRenderer(({ children }) => {
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>PopScent | Design Your Air</title>
-        <meta name="description" content="PopScent - Premium Home Fragrance Brand by Brand Stone. Candles, Diffusers, Car & Room Fragrances" />
+        <meta name="description" content="Premium Home Fragrance Brand" />
+        
+        {/* Anti-copy & Anti-capture Protection */}
+        <meta name="robots" content="noarchive, noimageindex" />
         
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,6 +27,28 @@ export const renderer = jsxRenderer(({ children }) => {
             background: #fff;
             color: #000;
             overflow-x: hidden;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
+          
+          /* Anti-copy & Anti-capture Protection */
+          img, video {
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+            user-drag: none;
+            pointer-events: none;
+          }
+          
+          /* Allow text selection in input/textarea */
+          input, textarea {
+            -webkit-user-select: text;
+            -moz-user-select: text;
+            -ms-user-select: text;
+            user-select: text;
           }
           
           /* ============================================
