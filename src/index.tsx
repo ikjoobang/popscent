@@ -1168,7 +1168,7 @@ app.get('/', (c) => {
             <p class="text-sm md:text-xl text-gray-400 break-all md:break-normal">jongeok.yang@brandstone.co.kr</p>
           </div>
           <div class="flex flex-col sm:flex-row justify-center gap-3 md:gap-4">
-            <a href="tel:+82-02-523-7054" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-black text-white text-sm md:text-lg font-medium rounded-full hover:bg-gray-800 transition-colors">
+            <a href="tel:+82-2-523-7054" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-black text-white text-sm md:text-lg font-medium rounded-full hover:bg-gray-800 transition-colors">
               <i class="fas fa-phone mr-2"></i><span class="lang-text" data-key="callNow">Call</span>
             </a>
             <a href="mailto:jongeok.yang@brandstone.co.kr" class="inline-block px-6 md:px-12 py-3 md:py-4 bg-blue-500 text-white text-sm md:text-lg font-medium rounded-full hover:bg-blue-600 transition-colors">
