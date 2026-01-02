@@ -10,6 +10,13 @@ export const renderer = jsxRenderer(({ children }) => {
         <title>PopScent | Design Your Air</title>
         <meta name="description" content="Premium Home Fragrance Brand" />
         
+        {/* OG Meta Tags for SNS Preview */}
+        <meta property="og:title" content="PopScent | Design Your Air" />
+        <meta property="og:description" content="Premium Home Fragrance Brand" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://popscent.kr" />
+        <meta property="og:site_name" content="PopScent" />
+        
         {/* Anti-copy & Anti-capture Protection */}
         <meta name="robots" content="noarchive, noimageindex" />
         
