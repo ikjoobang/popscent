@@ -1212,13 +1212,11 @@ app.get('/', (c) => {
             </div>
             <div>
               <p class="text-sky-300 text-xs mb-2 uppercase tracking-wider">Address</p>
-              <p class="text-sm text-sky-100/80">(06083) 서울시 강남구 영동대로 602,</p>
-              <p class="text-sm text-sky-100/80">6층 V202호 (삼성동 미켈란107)</p>
+              <p class="text-sm text-sky-100/80 lang-text" data-key="address">(06083) 서울시 강남구 영동대로 602, 6층 V202호</p>
             </div>
             <div>
               <p class="text-sky-300 text-xs mb-2 uppercase tracking-wider">Business</p>
-              <p class="text-sm text-sky-100/80">Home Fragrance</p>
-              <p class="text-sm text-sky-100/80">Distribution / OEM / ODM</p>
+              <p class="text-sm text-sky-100/80 lang-text" data-key="businessArea">Home Fragrance / Distribution / OEM / ODM</p>
             </div>
           </div>
           
